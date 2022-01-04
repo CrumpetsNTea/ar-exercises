@@ -6,8 +6,8 @@ puts "----------"
 
 # Your code goes here ...
 @store1 = Store.first
-puts @store1.name
+# puts @store1.name
 @store2 = Store.find_by(id: 2)
-puts @store2.name
+# puts @store2.name
 @store1.update(name: "Dave's")
-puts @store1.name
+# puts @store1.name
